@@ -15,8 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get("/", [ClienteController::class, 'showHome']);
+Route::get("/", [ClienteController::class, 'showHome'])->name('home');
 
-Route::get("/cadastro-cliente", [ClienteController::class, 'showFormularioCadastro']);
+Route::get("/cadastro-cliente", [ClienteController::class, 'showFormularioCadastro'])->name('show-formulario-cadastro');
+
+Route::post("/cadastro-cliente",[ClienteController::class, 'cadCliente'])->name('envia-banco-cliente');
 
 Route::get("/cadastro-funcionario", [FuncionarioController::class, "showFormularioCadastro"]);
