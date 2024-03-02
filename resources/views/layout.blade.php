@@ -24,7 +24,7 @@
                                 Cliente
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{'/cadastro-cliente'}}">Cadastrar</a></li>
+                                <li><a class="dropdown-item" href="{{route('show-formulario-cadastro-cliente')}}">Cadastrar</a></li>
                                 <li><a class="dropdown-item" href="#">pesquisar</a></li>
                                 <li><a class="dropdown-item" href="#">Alterar</a></li>
                                 <li><hr class="dropdown-divider"></li>
@@ -37,7 +37,7 @@
                                 Funcionário
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{'/cadastro-funcionario'}}">Cadastrar</a></li>
+                                <li><a class="dropdown-item" href="{{route('show-formulario-cadastro-funcionario')}}">Cadastrar</a></li>
                                 <li><a class="dropdown-item" href="#">pesquisar</a></li>
                                 <li><a class="dropdown-item" href="#">Alterar</a></li>
                                 <li><hr class="dropdown-divider"></li>
@@ -50,7 +50,7 @@
                                 Quarto
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Cadastrar</a></li>
+                                <li><a class="dropdown-item" href="{{route('show-formulario-cadastro-quarto')}}">Cadastrar</a></li>
                                 <li><a class="dropdown-item" href="#">pesquisar</a></li>
                                 <li><a class="dropdown-item" href="#">Alterar</a></li>
                                 <li><hr class="dropdown-divider"></li>
@@ -63,7 +63,7 @@
                                 Reserva
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Cadastrar</a></li>
+                                <li><a class="dropdown-item" href="{{route('show-formulario-cadastro-reserva')}}">Cadastrar</a></li>
                                 <li><a class="dropdown-item" href="#">pesquisar</a></li>
                                 <li><a class="dropdown-item" href="#">Alterar</a></li>
                                 <li><hr class="dropdown-divider"></li>
