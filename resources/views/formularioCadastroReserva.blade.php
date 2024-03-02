@@ -8,8 +8,12 @@
             <input type="text" class="form-control" id="inputNome" name="nome">
         </div>
         <div class="col-md-12">
-            <label for="inputFuncao" class="form-label">Função:</label>
-            <input type="text" class="form-control" id="inputFuncao", name="email">
+            <label for="inputEmail" class="form-label">E-mail:</label>
+            <input type="email" class="form-control" id="inputEmail", name="email">
+        </div>
+        <div class="col-3">
+            <label for="inputFone" class="form-label">Fone:</label>
+            <input type="fone" class="form-control" id="inputFone" name="fone">
         </div>
         <div class="col-12">
             <button type="submit" class="btn btn-primary">Cadastrar</button>
